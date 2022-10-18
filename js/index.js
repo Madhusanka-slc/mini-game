@@ -31,13 +31,13 @@ let index=1;
 const draw=() => {
 
     if(dy!==0){
-        playerElm.style.backgroundImage= `url('../img/adventure_girl/png/Jump (${index++}).png')`;
+        playerElm.style.backgroundImage= `url('img/adventure_girl/png/Jump (${index++}).png')`;
 
     } else if(dx!==0){
-        playerElm.style.backgroundImage= `url('../img/adventure_girl/png/Run (${index++}).png')`;
+        playerElm.style.backgroundImage= `url('img/adventure_girl/png/Run (${index++}).png')`;
 
     }else{
-        playerElm.style.backgroundImage= `url('../img/adventure_girl/png/Idle (${index++}).png')`;
+        playerElm.style.backgroundImage= `url('img/adventure_girl/png/Idle (${index++}).png')`;
 
     }
 
